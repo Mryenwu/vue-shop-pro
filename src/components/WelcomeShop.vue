@@ -44,6 +44,16 @@
 // 📝 這是 Vue 3 的 Composition API 語法
 import { ref } from 'vue'
 
+const messyCode = {
+  name: '測試',
+  age: 25,
+  hobbies: ['coding', 'reading', 'gaming']
+}
+
+const messyFunction = (param1, param2) => {
+  return param1 + param2
+}
+
 // 定義響應式資料
 const currentWeek = ref('第 1 週：專案初始化')
 const weekGoal = ref('建立 Vue 3 開發環境')
