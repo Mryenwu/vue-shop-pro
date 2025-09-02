@@ -1,4 +1,7 @@
 <template>
+  <!-- 在 WelcomeShop.vue 中更新版本資訊 -->
+  <p>📅 當前進度：<strong>第 1 週：專案初始化 + Git 設定</strong></p>
+  <p>🎯 本週目標：<strong>建立完整的開發環境與工具</strong></p>
   <div class="welcome-container">
     <!-- 歡迎標題 -->
     <h1 class="welcome-title">🛍️ 歡迎來到 Vue Shop Pro</h1>
